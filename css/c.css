@@ -1,0 +1,126 @@
+body,
+html {
+    height: 100%;
+}
+
+/** Header and fonts **/
+
+header {
+    width: 100%;
+}
+h1 {
+    font-family: "source-code-pro", sans-serif;
+    font-weight: 100;
+    font-size: 76pt;
+    text-align: center;
+}
+h2 {
+    font-family: "source-code-pro", sans-serif;
+    font-weight: 300;
+    font-size: 26pt;
+    text-align: center;
+}
+#right-container1 h1 {
+    font-size: 33pt;
+}
+#right-container2 h1 {
+    font-size: 33pt;
+}
+
+/** End Header and Fonts **/ 
+
+/** Start Page Height **/ 
+
+#pg1-container {
+    height: 85%;
+}
+#pg2-container {
+    height: 100%;
+}
+
+
+/*** End Page Heights **/ 
+
+
+/** Page 1 container **/ 
+#left-container {
+    width: 100%;
+    height: 85vh;
+    float: right;
+    background-image: url(http://nik.bot.nu/o897728.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/** End page 1 ** & Begin Page 2 **/ 
+#right-container1 {
+    width: 50%;
+    min-width: 10%;
+    height: 50vh;
+    float: left;
+    background-color: #ECF0F1;
+}
+#right-container2 {
+    width: 50%;
+    height: 50vh;
+    float: left;
+    background-color: #BDC3C7;
+}  
+
+#svcs-container {background-color:#2980B9;
+    background-image: url(http://nik.bot.nu/o976101.jpg);
+    background-size: cover;
+    background-position: center;
+height: 85vh;
+    width: 100%;
+    float: left;}
+
+#svcs-content-container{
+    width: 100%;
+      height: 400px;
+position: relative;
+margin-top: 20vh;
+}
+
+#svcs {
+width: 50%;
+    height:40vh;
+position: relative;
+margin-right:auto;
+float:left;
+border-bottom: 5px solid white;
+box-sizing: border-box;}
+
+#svcs h2 {color:white;}
+#svcs-right-bx h2 {color:white;}
+
+#svcs-right-bx {
+    box-sizing: border-box;
+width: 50%;
+    min-width: 400px;
+    height:40vh;
+position: relative;
+margin-left: auto;
+    float: right;
+    border-top: 5px solid white;
+    border-left: 5px solid white; 
+    
+    
+    
+    
+}
+
+/** End Page 2 **/ 
+
+/** Start Page 3 **/
+
+#pg3-container {width: 100%;
+height: 95vh;
+background-color: blue;}
+
+
+
+
+/** End Page 3 **/ 
+
+
